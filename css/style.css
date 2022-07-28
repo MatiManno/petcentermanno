@@ -1,0 +1,701 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: poppins;
+    background-image: url(../img/fondos/patron.jpg);
+    background-size: cover;
+    background-size: 400px;
+}
+
+/*---------------INDEX---------------*/
+
+/*ENCABEZADO*/
+
+.encabezado {
+    background-color: #b3916ebd;
+    border-bottom: 2px solid #1f1106;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+}
+
+.encabezado img {
+    width: 65%;
+    padding: 30px;
+    margin-top: 45px;
+}
+
+/*MENU*/
+
+.menu ul {
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+}
+
+.menu ul li a {
+    color: hsl(26, 68%, 7%);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/*TITULO*/
+
+.hero {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-principal {
+    font-size: 50px;
+    font-weight: 800;
+    color: #b3916e;
+    text-align: center;
+    background-color: #1f1106c7;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    margin: 15px;
+
+}
+
+.titulo-secundario {
+    color: #1f1106;
+    text-align: center;
+    font-style: italic;
+    background-color: #f7ede1;
+    padding: 5px;
+    border: 2px solid #1f1106;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+/*BANNER 1*/
+
+.banner1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.banner1 img {
+    width: 100%;
+    border: 3px solid #1f1106;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.titulos-billetera {
+    display: flex;
+    align-items: center;
+}
+
+.banner1-billetera {
+    color: #1f1106;
+    font-size: 35px;
+    padding: 15px;  
+    background-color: #b3916ece;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: 2px solid #1f1106;
+    margin-right: 70px;
+}
+
+.banner1-dias {
+    color: #1f1106;
+    font-size: 20px;
+    padding: 15px;
+    background-color: #b3916ece;
+    border-radius: 10px;
+    border: 2px solid #1f1106;
+}
+
+.banner1 p {
+    color: black;
+    text-align: right;
+    padding-right: 15px;
+}
+
+/*MAS VENDIDOS*/
+
+.catalogo {
+    font-size: 30px;
+    color: #b3916e;
+    padding-left: 105px;
+    background-color: #1f1106da;
+    margin: 25px 0px 10px 0px;
+    font-weight: 100;
+}
+
+.mas-vendidos {
+    display: flex;
+    justify-content: center;
+}
+
+.carrusel {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    border: 2px solid #1f1106;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    background-color: #1f1106cc
+}
+
+.tarjeta {
+    width: 300px;
+    height: 450px;
+    border: 3px solid #1f1106;
+    margin: 15px 10px 15px 10px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #b3916e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productos {
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.tarjeta h4 {
+    color: #1f1106;
+    font-weight: 500;
+}
+
+.tarjeta a {
+    background-color: #f7ede1;
+    text-decoration: none;
+    padding: 5px;
+    color: #1f1106;
+    border-radius: 8px;
+    font-weight: 700;
+    border-bottom: 2px solid #1f1106;
+    border-right: 2px solid #1f1106;
+    width: 100px;
+    margin-bottom: 25px;
+}
+
+/*BANNER 2*/
+
+.banner2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.banner2 img {
+    width: 100%;
+    border: 3px solid #1f1106;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.titulos-descuento {
+    display: flex;
+    align-items: center;
+}
+
+.banner2-dto {
+    color: #1f1106;
+    text-align: center;
+    font-size: 35px;
+    padding: 15px;  
+    background-color: #b3916ece;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: 2px solid #1f1106;
+    display: flex;
+    margin-right: 70px;
+}
+
+.banner2-dias {
+    color: #1f1106;
+    font-size: 20px;
+    padding: 15px;
+    background-color: #b3916ece;
+    border-radius: 10px;
+    border: 2px solid #1f1106;
+    display: flex;
+    align-items: center;
+}
+
+.banner2-dias p {
+    color: black;
+    text-align: right;
+    padding-right: 15px;
+}
+
+/*BOTON FLOTANTE DE WHATSAPP*/
+
+.flotante .wsp {
+    width: 65px;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+}
+
+/*FOOTER*/
+
+.pie {
+    background-color: #b3916e;
+    border-top: 2px solid #1f1106;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pie img {
+    width: 60px;
+    padding: 2px;
+}
+
+.pie h3 {
+    text-align: center;
+}
+
+.pie .redes {
+    width: 40px;
+    margin: 0px 3px 0px 3px;
+}
+
+/*---------------NOSOTROS---------------*/
+
+/*NOSOTROS*/
+
+.nosotros {
+    color: #1f1106;
+    margin: 40px 0px 10px 65px;
+}
+
+.nosotros-fotos {
+    display: flex;
+    justify-content: center
+}
+
+.nosotros-fotos img {
+    width: 100%;
+    margin: 20px;
+    border: 4px solid #1f1106;
+    border-radius: 15px;
+}
+
+/*RESPONSIVE NOSOTROS APLICANDO MEDIA QUERIE*/
+
+@media screen and (max-width:1310px) {
+
+    .grid-nos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        width: 97%;
+    }
+}
+
+@media screen and (max-width:952px) {
+
+    .grid-nos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:630px) {
+
+    .grid-nos {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        width: 93%;
+    }
+}
+
+/*---------------CONTACTO---------------*/
+
+/*MAPA*/
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mapa {
+    width: 600px;
+    height: 450px;
+    display: flex;
+    margin-right: 50px;
+    margin-top: 30px;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+.plano {
+    height: 440px;
+    border-radius: 15px;
+}
+
+.formulario {
+    margin-top: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border: #1f1106 3px solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #1f110684;
+    color: #f7ede1;
+}
+
+.btn-contacto {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-contacto button {
+    margin: 5px 8px 0px 8px;
+    font-size: 15px;
+    padding: 2px;
+    }
+
+.fotos-local {
+    display: flex;
+    justify-content: center
+}
+
+.fotos-local img {
+        width: 100%;
+        margin: 20px;
+        border: 4px solid #1f1106;
+        border-radius: 15px;
+}
+
+/*RESPONSIVE NOSOTROS APLICANDO MEDIA QUERIE*/
+
+@media screen and (max-width:1310px) {
+
+    .grid-local {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        width: 97%;
+    }
+}
+
+@media screen and (max-width:1060px) {
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:952px) {
+
+    .grid-local {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:638px) {
+    .mapa {
+        margin: 10px;
+        width: 400px;
+    }
+
+    .plano {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:630px) {
+
+    .grid-local {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        width: 93%;
+    }
+}
+@media screen and (max-width:420px) {
+    .mapa {
+        width: 260px;
+        height: 260px;
+    }
+
+    .plano {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+
+/*-------------------------GRIDS PAGE PRODUCTOS-------------------------*/
+
+.centrar-grilla {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container {
+    width: 90vw;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 450px;
+    gap: 20px;
+}
+
+.grid-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 10px 10px 8px 0px rgba(0, 0, 0, 0.58);
+    -webkit-box-shadow: 10px 10px 8px 0px rgba(0, 0, 0, 0.58);
+    -moz-box-shadow: 10px 10px 8px 0px rgba(0, 0, 0, 0.58);
+    margin-bottom: -80px;
+}
+
+.grid-item {
+    position: relative;
+}
+
+.grid-item h4 {
+    position: absolute;
+    bottom: 0;
+    padding: 5px 0 5px 15px;
+    color: #f7ede1;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    font-size: 12px;
+}
+
+.grid-item a {
+    background-color: #f7ede1;
+    text-decoration: none;
+    padding: 3px;
+    color: #1f1106;
+    font-weight: 700;
+    border: #1f1106 solid 1px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.banner3 {
+    grid-column: span 2;
+}
+
+/* --------------------- DISEÑO RESPONSIVE CON MEDIA QUERIE --------------------- */
+
+
+
+@media screen and (max-width:1085px) {
+
+    /*ENCABEZADO*/
+    
+        .encabezado {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+            height: auto;
+            width: 100vw;
+        }
+    
+        .encabezado img {
+            width: 80%;
+            margin-top: -20px;
+            margin-bottom: -40px;
+        }
+    
+    }
+
+@media screen and (max-width:950px) {
+
+    /*GRIDS DE PRODUCTOS*/
+    
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 220px;
+    }
+
+    .grid-item{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .grid-item h4 {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:880px) {
+
+    /*MENU*/
+    
+        .menu ul {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .hero {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .titulo-principal {
+            margin-top: -10px;
+            border-radius: 10px;
+        }
+        
+        .titulo-secundario {
+            margin-top: -2px;
+        }
+    
+    /*BANNER 1*/
+    
+        .titulos-billetera {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .banner1-billetera {
+            font-size: 25px;
+            margin-left: 80px;
+        }
+    
+        .banner1-dias {
+            margin-top: 20px;
+        }
+    
+        .banner1 p {
+            text-align: left;
+        }
+    
+    /*BANNER 2*/
+    
+        .titulos-descuento {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .banner2-dias {
+            margin-top: 20px;
+            text-align: start;
+        }
+    
+        .banner2-dto {
+            font-size: 25px;
+            margin-left: 80px;
+        }
+    
+        .banner2 p {
+            text-align: left;
+        }
+    }
+
+@media screen and (max-width:719px) {
+
+    /*GRID DE PRODUCTOS*/
+    
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-auto-rows: 420px;
+    }
+
+    .grid-item{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+
+@media screen and (max-width:537px) {
+
+    /*TITULOS*/
+
+    .titulo-principal {
+        font-size: 20px;
+    }
+
+    .titulo-secundario {
+        font-size: 14px;
+    }
+
+    /*BANNER 1*/
+
+    .banner1-billetera h3 {
+        font-size: 20px;
+    }
+
+    .banner1-dias p {
+        font-size: 14px;
+    }
+
+    .catalogo {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    /*BANNER 2*/
+
+    .banner2-dto h3 {
+        font-size: 20px;
+    }
+
+    .banner2-dias p {
+        font-size: 14px;
+    }
+
+    /*FOOTER*/
+    
+    .pie {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pie h3 {
+        font-size: 14px;
+    }
+
+    /*BOTON FLOTANTE DE WHATSAPP*/
+
+    .flotante .wsp {
+        width: 40px;
+        position: fixed;
+        bottom: 70px;
+        right: 10px;
+}
+}
