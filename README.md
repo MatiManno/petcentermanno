@@ -1,4 +1,5 @@
-<h3 align="center">Primer proyecto de desarrollo web.</h3>
+<h1 align="center">Proyect Pet Center</h1>
+<h3 align="center">First project web dev</h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
