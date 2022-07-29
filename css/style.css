@@ -39,7 +39,6 @@ body {
     list-style: none;
     text-decoration: none;
     font-weight: bold;
-    display: flex;
 }
 
 .menu ul li {
@@ -49,7 +48,7 @@ body {
 
 .menu ul li a {
     color: hsl(26, 68%, 7%);
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
 }
 
@@ -140,9 +139,9 @@ body {
 
 .catalogo {
     font-size: 30px;
-    color: #b3916e;
+    color: #1f1106;
     padding-left: 105px;
-    background-color: #1f1106da;
+    background-image: linear-gradient(to right, #b3916e, #f7ede1);
     margin: 25px 0px 10px 0px;
     font-weight: 100;
 }
