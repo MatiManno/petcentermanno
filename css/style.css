@@ -39,22 +39,27 @@ body {
     list-style: none;
     text-decoration: none;
     font-weight: bold;
-    display: flex;
+    margin-right: 15px;
 }
 
 .menu ul li {
     display: inline-block;
-    margin: 0px 10px 0px 10px;
+    margin: 0px 10px 0px 15px;
 }
 
 .menu ul li a {
     color: hsl(26, 68%, 7%);
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
 }
 
-.menu ul li a:hover {
+.menu ul li{
+    transition: 0.2s;
+}
+
+.menu ul li:hover {
     text-decoration: underline;
+    transform: scale(1.2);
 }
 
 
@@ -140,9 +145,9 @@ body {
 
 .catalogo {
     font-size: 30px;
-    color: #b3916e;
+    color: #1f1106;
     padding-left: 105px;
-    background-color: #1f1106da;
+    background-image: linear-gradient(to right, #b3916e, #f7ede1);
     margin: 25px 0px 10px 0px;
     font-weight: 100;
 }
@@ -199,6 +204,13 @@ body {
     border-right: 2px solid #1f1106;
     width: 100px;
     margin-bottom: 25px;
+}
+
+.tarjeta a:hover {
+    background-color: #BBB6B0;
+    color: #f7ede1;
+    border-bottom: 2px solid #1f1106;
+    border-right: 2px solid #1f1106;
 }
 
 /*BANNER 2*/
@@ -513,6 +525,15 @@ body {
     border: #1f1106 solid 1px;
     border-radius: 5px;
     margin-left: 20px;
+    transition: 0.2s;
+}
+
+.grid-item a:hover {
+    background-color: #BBB6B0;
+    color: #f7ede1;
+    border-bottom: 1px solid #1f1106;
+    border-right: 1px solid #1f1106;
+    transform: scale(1.2);
 }
 
 .banner3 {
@@ -565,10 +586,15 @@ body {
 @media screen and (max-width:880px) {
 
     /*MENU*/
-    
+
+        .encabezado img {
+            margin-bottom: -25px;
+        }
+
         .menu ul {
             display: flex;
             flex-direction: column;
+            margin-bottom: 5px;
         }
     
         .hero {
@@ -625,6 +651,24 @@ body {
         .banner2 p {
             text-align: left;
         }
+
+    /*FOOTER*/
+
+        .pie {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .pie img {
+            width: 100px;
+            margin-top: 15px;
+        }
+
+        .pie .redes {
+            width: 50px;
+            margin-top: 15px;
+        }
+
     }
 
 @media screen and (max-width:719px) {
