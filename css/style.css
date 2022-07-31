@@ -39,11 +39,12 @@ body {
     list-style: none;
     text-decoration: none;
     font-weight: bold;
+    margin-right: 15px;
 }
 
 .menu ul li {
     display: inline-block;
-    margin: 0px 10px 0px 10px;
+    margin: 0px 10px 0px 15px;
 }
 
 .menu ul li a {
@@ -52,8 +53,13 @@ body {
     text-decoration: none;
 }
 
-.menu ul li a:hover {
+.menu ul li{
+    transition: 0.2s;
+}
+
+.menu ul li:hover {
     text-decoration: underline;
+    transform: scale(1.2);
 }
 
 
@@ -198,6 +204,13 @@ body {
     border-right: 2px solid #1f1106;
     width: 100px;
     margin-bottom: 25px;
+}
+
+.tarjeta a:hover {
+    background-color: #BBB6B0;
+    color: #f7ede1;
+    border-bottom: 2px solid #1f1106;
+    border-right: 2px solid #1f1106;
 }
 
 /*BANNER 2*/
@@ -512,6 +525,15 @@ body {
     border: #1f1106 solid 1px;
     border-radius: 5px;
     margin-left: 20px;
+    transition: 0.2s;
+}
+
+.grid-item a:hover {
+    background-color: #BBB6B0;
+    color: #f7ede1;
+    border-bottom: 1px solid #1f1106;
+    border-right: 1px solid #1f1106;
+    transform: scale(1.2);
 }
 
 .banner3 {
