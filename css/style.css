@@ -53,7 +53,7 @@ body {
     text-decoration: none;
 }
 
-.menu ul li{
+.menu ul li {
     transition: 0.2s;
 }
 
@@ -208,7 +208,7 @@ body {
 
 .tarjeta a:hover {
     background-color: #BBB6B0;
-    color: #f7ede1;
+    color: #1f1106;
     border-bottom: 2px solid #1f1106;
     border-right: 2px solid #1f1106;
 }
