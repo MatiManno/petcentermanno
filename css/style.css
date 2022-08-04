@@ -18,12 +18,11 @@ body {
 
 .encabezado {
     background-color: #b3916ecc;
-    height: 80px;
 }
 
 .encabezado img {
-    width: 120px;
-    padding: 15px;
+    width: 100px;
+
 }
 
 /*-----------------------------------------MENU NAVEGACION-----------------------------------------*/
@@ -72,20 +71,38 @@ body {
     background-image: linear-gradient(to right, #b3916e, #f7ede1);
     justify-content: space-evenly;
     align-items: baseline;
-    padding: 12px;
+    padding: 10px;
 }
 
 .titulo-principal {
-    font-size: 80px;
+    font-size: 65px;
     font-weight: bold;
     color: #1f1106;
 }
 
 .titulo-secundario {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 600;
     color: #1f1106;
     font-style: italic;
+}
+
+/*-----------------------------------------LINEA EXCELLENT-----------------------------------------*/
+
+.destacados {
+    color: #1f1106;
+    background-image: linear-gradient(to right, #f7ede1, #b3916e, #f7ede1);
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 48px;
+}
+
+.linea-excellent {
+    width: 95%;
+    margin: auto;
+    box-shadow: 10px 10px 8px 0px #1f1106be;
+    -webkit-box-shadow: 10px 10px 8px 0px #1f1106be;
+    -moz-box-shadow: 10px 10px 8px 0px #1f1106be;
 
 }
 
