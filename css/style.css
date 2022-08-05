@@ -109,13 +109,57 @@ body {
 
 /*-----------------------------------------MAS VENDIDOS-----------------------------------------*/
 
+.tarjeta-card {
+    width: 300px;
+    height: 400px;
+    margin: 15px;
+}
+
+.pie-tarjeta {
+    width: 300px;
+    height: 120px;
+    background-color: #b3916eda;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.tarjeta-card img {
+    width: 300px;
+}
+
+.tarjeta-card h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #1f1106
+}
+
+.tarjeta-card a{
+    text-decoration: none;
+    color: #1f1106;
+    background-color: #f7ede1;
+    border: #1f1106 1px solid;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.tarjeta-card a:hover {
+    color: #f7ede1;
+    border-bottom: #f7ede1 3px solid;
+    border-right: #f7ede1 3px solid;
+    background-color: #1f1106;
+}
+/*-----------------------------------------MAS VENDIDOS-----------------------------------------*/
+
 
 .catalogo {
     font-size: 30px;
     color: #1f1106;
-    padding-left: 105px;
+    padding-left: 60px;
     background-image: linear-gradient(to right, #b3916e, #f7ede1);
-    margin: 25px 0px 10px 0px;
     font-weight: 100;
 }
 
@@ -180,60 +224,12 @@ body {
     border-right: 2px solid #1f1106;
 }
 
-/*BANNER 2*/
 
-.banner2 {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.banner2 img {
-    width: 100%;
-    border: 3px solid #1f1106;
-    border-radius: 15px;
-    margin-top: 15px;
-}
-
-.titulos-descuento {
-    display: flex;
-    align-items: center;
-}
-
-.banner2-dto {
-    color: #1f1106;
-    text-align: center;
-    font-size: 35px;
-    padding: 15px;
-    background-color: #b3916ece;
-    border-radius: 10px;
-    margin-top: 15px;
-    border: 2px solid #1f1106;
-    display: flex;
-    margin-right: 70px;
-}
-
-.banner2-dias {
-    color: #1f1106;
-    font-size: 20px;
-    padding: 15px;
-    background-color: #b3916ece;
-    border-radius: 10px;
-    border: 2px solid #1f1106;
-    display: flex;
-    align-items: center;
-}
-
-.banner2-dias p {
-    color: black;
-    text-align: right;
-    padding-right: 15px;
-}
 
 /*BOTON FLOTANTE DE WHATSAPP*/
 
-.flotante .wsp {
-    width: 65px;
+.wsp {
+    width: 75px;
     position: fixed;
     bottom: 50px;
     right: 30px;
@@ -251,8 +247,8 @@ body {
 }
 
 .pie img {
-    width: 60px;
-    padding: 2px;
+    width: 100px;
+    padding: 8px;
 }
 
 .pie h3 {
@@ -260,7 +256,7 @@ body {
 }
 
 .pie .redes {
-    width: 40px;
+    width: 70px;
     margin: 0px 3px 0px 3px;
 }
 
