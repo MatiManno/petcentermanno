@@ -1,0 +1,684 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: poppins;
+    background-image: url(../img/fondos/patron.jpg);
+    background-size: 25%;
+}
+
+/*---------------------------------------------------INDEX---------------------------------------------------*/
+
+/*-----------------------------------------ENCABEZADO-----------------------------------------*/
+
+.encabezado {
+    background-color: #b3916ecc;
+}
+
+.encabezado img {
+    width: 100px;
+
+}
+
+/*-----------------------------------------MENU NAVEGACION-----------------------------------------*/
+
+.menu ul {
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 0px 20px 0px 20px;
+}
+
+.lista li a {
+    color: #1f1106;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu ul li {
+    transition: 0.15s;
+}
+
+.menu ul li:hover {
+    text-decoration: underline;
+    transform: scale(1.3);
+}
+
+.btn {
+    border: 1px solid #1f1106c7;
+    background-color: #F7EDE1;
+}
+
+.btn:hover {
+    background-color: #1f1106c7;
+    color: #F7EDE1;
+}
+
+/*-----------------------------------------TITULO-----------------------------------------*/
+
+.hero {
+    width: 100%;
+    display: flex;
+    background-image: linear-gradient(#b3916e, #f7ede1);
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding: 10px;
+}
+
+.titulo-principal {
+    font-size:65px;
+    font-weight: bold;
+    color: #1f1106;
+}
+
+.titulo-secundario {
+    font-size: 35px;
+    font-weight: 600;
+    color: #1f1106;
+    font-style: italic;
+}
+
+/*-----------------------------------------LINEA EXCELLENT-----------------------------------------*/
+
+.destacados {
+    font-size: 30px;
+    color: #1f1106;
+    padding-left: 2.5%;
+    background-image: linear-gradient(to right, #b3916e, #f7ede1);
+    margin: 25px 0px 10px 0px;
+    font-weight: 100;
+}
+
+.linea-excellent {
+    width: 95%;
+    margin: auto;
+    box-shadow: 10px 10px 8px 0px #1f1106be;
+    -webkit-box-shadow: 10px 10px 8px 0px #1f1106be;
+    -moz-box-shadow: 10px 10px 8px 0px #1f1106be;
+
+}
+
+/*-----------------------------------------MAS VENDIDOS-----------------------------------------*/
+
+.tarjeta-card {
+    width: 300px;
+    height: 400px;
+    margin: 15px;
+}
+
+.pie-tarjeta {
+    width: 300px;
+    height: 120px;
+    background-color: #b3916eda;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.tarjeta-card img {
+    width: 300px;
+}
+
+.tarjeta-card h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #1f1106
+}
+
+.tarjeta-card a{
+    text-decoration: none;
+    color: #1f1106;
+    background-color: #f7ede1;
+    border: #1f1106 1px solid;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.tarjeta-card a:hover {
+    color: #f7ede1;
+    border-bottom: #f7ede1 3px solid;
+    border-right: #f7ede1 3px solid;
+    background-color: #1f1106;
+}
+/*-----------------------------------------MAS VENDIDOS-----------------------------------------*/
+
+
+.catalogo {
+    font-size: 30px;
+    color: #1f1106;
+    padding-left: 60px;
+    background-image: linear-gradient(to right, #b3916e, #f7ede1);
+    font-weight: 100;
+}
+
+.mas-vendidos {
+    display: flex;
+    justify-content: center;
+}
+
+.carrusel {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    border: 2px solid #1f1106;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    background-color: #1f1106cc
+}
+
+.tarjeta {
+    width: 300px;
+    height: 450px;
+    border: 3px solid #1f1106;
+    margin: 15px 10px 15px 10px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #b3916e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productos {
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.tarjeta h4 {
+    color: #1f1106;
+    font-weight: 500;
+}
+
+.tarjeta a {
+    background-color: #f7ede1;
+    text-decoration: none;
+    padding: 5px;
+    color: #1f1106;
+    border-radius: 8px;
+    font-weight: 700;
+    border-bottom: 2px solid #1f1106;
+    border-right: 2px solid #1f1106;
+    width: 100px;
+    margin-bottom: 25px;
+}
+
+.tarjeta a:hover {
+    background-color: #BBB6B0;
+    color: #1f1106;
+    border-bottom: 2px solid #1f1106;
+    border-right: 2px solid #1f1106;
+}
+
+
+
+/*BOTON FLOTANTE DE WHATSAPP*/
+
+.wsp {
+    width: 75px;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+}
+
+/*FOOTER*/
+
+.pie {
+    background-color: #b3916e;
+    border-top: 2px solid #1f1106;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pie img {
+    width: 100px;
+    padding: 8px;
+}
+
+.pie h3 {
+    text-align: center;
+}
+
+.pie .redes {
+    width: 70px;
+    margin: 0px 3px 0px 3px;
+}
+
+/*---------------NOSOTROS---------------*/
+
+/*NOSOTROS*/
+
+.nosotros {
+    color: #1f1106;
+    margin: 40px 0px 10px 65px;
+}
+
+.nosotros-fotos {
+    display: flex;
+    justify-content: center
+}
+
+.nosotros-fotos img {
+    width: 100%;
+    margin: 20px;
+    border: 4px solid #1f1106;
+    border-radius: 15px;
+}
+
+/*RESPONSIVE NOSOTROS APLICANDO MEDIA QUERIE*/
+
+@media screen and (max-width:1310px) {
+
+    .grid-nos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        width: 97%;
+    }
+}
+
+@media screen and (max-width:952px) {
+
+    .grid-nos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:630px) {
+
+    .grid-nos {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        width: 93%;
+    }
+}
+
+/*---------------CONTACTO---------------*/
+
+/*MAPA*/
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mapa {
+    width: 600px;
+    height: 450px;
+    display: flex;
+    margin-right: 50px;
+    margin-top: 30px;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+.plano {
+    height: 440px;
+    border-radius: 15px;
+}
+
+.formulario {
+    margin-top: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border: #1f1106 3px solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #1f110684;
+    color: #f7ede1;
+}
+
+.btn-contacto {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-contacto button {
+    margin: 5px 8px 0px 8px;
+    font-size: 15px;
+    padding: 2px;
+}
+
+.fotos-local {
+    display: flex;
+    justify-content: center
+}
+
+.fotos-local img {
+    width: 100%;
+    margin: 20px;
+    border: 4px solid #1f1106;
+    border-radius: 15px;
+}
+
+/*RESPONSIVE NOSOTROS APLICANDO MEDIA QUERIE*/
+
+@media screen and (max-width:1310px) {
+
+    .grid-local {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        width: 97%;
+    }
+}
+
+@media screen and (max-width:1060px) {
+
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:952px) {
+
+    .grid-local {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:638px) {
+
+    .mapa {
+        margin: 10px;
+        width: 400px;
+    }
+
+    .plano {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:630px) {
+
+    .grid-local {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        width: 93%;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .mapa {
+        width: 310px;
+        height: 310px;
+    }
+
+    .plano {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+
+/*-------------------------GRIDS PAGE PRODUCTOS-------------------------*/
+
+.centrar-grilla {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container {
+    width: 90vw;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 450px;
+    gap: 20px;
+}
+
+.grid-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 10px 10px 8px 0px rgba(0, 0, 0, 0.58);
+    -webkit-box-shadow: 10px 10px 8px 0px rgba(0, 0, 0, 0.58);
+    -moz-box-shadow: 10px 10px 8px 0px rgba(0, 0, 0, 0.58);
+    margin-bottom: -80px;
+}
+
+.grid-item {
+    position: relative;
+}
+
+.grid-item h4 {
+    position: absolute;
+    bottom: 0;
+    padding: 5px 0 5px 15px;
+    color: #f7ede1;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    font-size: 12px;
+}
+
+.grid-item a {
+    background-color: #f7ede1;
+    text-decoration: none;
+    padding: 3px;
+    color: #1f1106;
+    font-weight: 700;
+    border: #1f1106 solid 1px;
+    border-radius: 5px;
+    margin-left: 20px;
+    transition: 0.2s;
+}
+
+.grid-item a:hover {
+    background-color: #BBB6B0;
+    color: #f7ede1;
+    border-bottom: 1px solid #1f1106;
+    border-right: 1px solid #1f1106;
+    transform: scale(1.2);
+}
+
+.banner3 {
+    grid-column: span 2;
+}
+
+/* --------------------- DISEÑO RESPONSIVE CON MEDIA QUERIE --------------------- */
+
+
+
+@media screen and (max-width:1130px) {
+
+    /*ENCABEZADO*/
+    .hero {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:950px) {
+
+    /*GRIDS DE PRODUCTOS*/
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 220px;
+    }
+
+    .grid-item {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .grid-item h4 {
+        font-size: 11px;
+    }
+
+}
+
+@media screen and (max-width:880px) {
+
+    /*MENU*/
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo-principal {
+        margin-top: -10px;
+        border-radius: 10px;
+    }
+
+    .titulo-secundario {
+        margin-top: -2px;
+    }
+
+    /*BANNER 1*/
+
+    .titulos-billetera {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner1-billetera {
+        font-size: 25px;
+        margin-left: 80px;
+    }
+
+    .banner1-dias {
+        margin-top: 20px;
+    }
+
+    .banner1 p {
+        text-align: left;
+    }
+
+    /*BANNER 2*/
+
+    .titulos-descuento {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner2-dias {
+        margin-top: 20px;
+        text-align: start;
+    }
+
+    .banner2-dto {
+        font-size: 25px;
+        margin-left: 80px;
+    }
+
+    .banner2 p {
+        text-align: left;
+    }
+
+    /*FOOTER*/
+
+    .pie {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pie img {
+        width: 100px;
+        margin-top: 15px;
+    }
+
+    .pie .redes {
+        width: 50px;
+        margin-top: 15px;
+    }
+
+}
+
+@media screen and (max-width:719px) {
+
+    /*GRID DE PRODUCTOS*/
+
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-auto-rows: 420px;
+    }
+
+    .grid-item {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    /*BANNER 1*/
+
+    .banner1-billetera h3 {
+        font-size: 20px;
+    }
+
+    .banner1-dias p {
+        font-size: 14px;
+    }
+
+    .catalogo {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    /*BANNER 2*/
+
+    .banner2-dto h3 {
+        font-size: 20px;
+    }
+
+    .banner2-dias p {
+        font-size: 14px;
+    }
+
+    /*FOOTER*/
+
+    .pie {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pie h3 {
+        font-size: 14px;
+    }
+
+    /*BOTON FLOTANTE DE WHATSAPP*/
+
+    .flotante .wsp {
+        width: 40px;
+        position: fixed;
+        bottom: 70px;
+        right: 10px;
+    }
+}
