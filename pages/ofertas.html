@@ -50,34 +50,50 @@
         </nav>
     </header>
         <main>
-<!--BANNER 1-->
-<section class="banner1">
-    <div class="banner1-img">
-        <a href="./pages/ofertas.html"><img src="../img/banners/1.png" alt="Billetera Santa Fe"></a>
-    </div>
-    <div class="titulos-billetera">   
-        <div class="banner1-billetera">
-            <h3>Billetera Santa Fe <br> 30% de reintegro</h3>
-        </div>
-        <div class="banner1-dias">
-            <p>Lunes, Martes y Miércoles <br> abonando por QR con APP Plus Pagos</p>
-        </div>
-    </div>
-</section>
-<!--BANNER 2-->
-<section class="banner2">
-    <div class="banner2-img">
-        <a href="./pages/ofertas.html"><img src="../img/banners/2.png" alt="10% de descuento"></a>
-    </div>
-    <div class="titulos-descuento">    
-        <div class="banner2-dto">
-            <h3>10% de Descuento</h3>
-        </div>
-        <div class="banner2-dias">
-            <p>De Jueves a Sábados <br> abonando en efectivo, débito o transferencia</p>
-        </div>
-    </div>
-</section>
+
+            <!------------------------------------------------CARRUSEL------------------------------------------------>
+
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../img/banners/bsf.png" class="d-block w-100" alt="Billetera Santa Fe">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/banners/20dto.png" class="d-block w-100" alt="20% OFF">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/banners/10dto.png" class="d-block w-100" alt="10% OFF">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden"></span>
+                </button>
+            </div>
+        </section>
+        <!------------------------------------------------TITULO------------------------------------------------>
+
+        <section class="hero">
+            <div>
+                <h1 class="titulo-principal">Ofertas destacadas</h1>
+            </div>
+        </section>
+
 <!--BOTON DE WHATSAPP FLOTANTE-->
                     <section class="flotante">
                         <a href="https://api.whatsapp.com/send?phone=5493412280990&text=Hola%20Pet%20Center%2C%20%C2%A1Quiero%20hacer%20un%20pedido!" target="_blank"><img class="wsp" src="../img/redes/wsp2.png" alt="whatsapp"></a>

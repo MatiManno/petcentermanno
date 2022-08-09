@@ -152,79 +152,6 @@ body {
     border-right: #f7ede1 3px solid;
     background-color: #1f1106;
 }
-/*-----------------------------------------MAS VENDIDOS-----------------------------------------*/
-
-
-.catalogo {
-    font-size: 30px;
-    color: #1f1106;
-    padding-left: 60px;
-    background-image: linear-gradient(to right, #b3916e, #f7ede1);
-    font-weight: 100;
-}
-
-.mas-vendidos {
-    display: flex;
-    justify-content: center;
-}
-
-.carrusel {
-    display: flex;
-    justify-content: space-around;
-    width: 85%;
-    border: 2px solid #1f1106;
-    border-radius: 8px;
-    flex-wrap: wrap;
-    background-color: #1f1106cc
-}
-
-.tarjeta {
-    width: 300px;
-    height: 450px;
-    border: 3px solid #1f1106;
-    margin: 15px 10px 15px 10px;
-    text-align: center;
-    border-radius: 8px;
-    background-color: #b3916e;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.productos {
-    width: 100%;
-    height: 300px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-}
-
-.tarjeta h4 {
-    color: #1f1106;
-    font-weight: 500;
-}
-
-.tarjeta a {
-    background-color: #f7ede1;
-    text-decoration: none;
-    padding: 5px;
-    color: #1f1106;
-    border-radius: 8px;
-    font-weight: 700;
-    border-bottom: 2px solid #1f1106;
-    border-right: 2px solid #1f1106;
-    width: 100px;
-    margin-bottom: 25px;
-}
-
-.tarjeta a:hover {
-    background-color: #BBB6B0;
-    color: #1f1106;
-    border-bottom: 2px solid #1f1106;
-    border-right: 2px solid #1f1106;
-}
-
-
 
 /*BOTON FLOTANTE DE WHATSAPP*/
 
@@ -261,6 +188,33 @@ body {
 }
 
 /*---------------NOSOTROS---------------*/
+
+.quienes-somos {
+    width: 70%;
+    margin-inline: auto;
+}
+
+.accordion-button {
+    color: #1f1106;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #b3916e;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #1f1106;
+    background-color: #f7ede1;
+}
+
+.accordion-body {
+    color: #1f1106;
+    background-color: #f7ede1;
+}
+
+.accordion-button:focus {
+    box-shadow: #1f1106ae;
+    border-color: #1f1106;
+}
 
 /*NOSOTROS*/
 
@@ -353,6 +307,17 @@ body {
     color: #f7ede1;
 }
 
+.form div {
+    margin: 5px;
+}
+
+.form div h3 {
+    margin-top: 22px;
+    font-size: 20px;
+    text-decoration: overline;
+    font-style: italic;
+}
+
 .btn-contacto {
     display: flex;
     justify-content: flex-end;
@@ -362,6 +327,14 @@ body {
     margin: 5px 8px 0px 8px;
     font-size: 15px;
     padding: 2px;
+    border: 1px solid #1f1106c7;
+    background-color: #F7EDE1;
+    border-radius: 5px;
+}
+
+.btn-contacto button:hover {
+    background-color: #1f1106;
+    color: #F7EDE1;
 }
 
 .fotos-local {
@@ -475,11 +448,13 @@ body {
 .grid-item h4 {
     position: absolute;
     bottom: 0;
-    padding: 5px 0 5px 15px;
+    padding: 10px 0 10px 10px;
     color: #f7ede1;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #1f1106;
     width: 100%;
-    font-size: 12px;
+    font-size: 13px;
+    margin-bottom: 0px;
+    font-weight: 600;
 }
 
 .grid-item a {
@@ -487,7 +462,7 @@ body {
     text-decoration: none;
     padding: 3px;
     color: #1f1106;
-    font-weight: 700;
+    font-weight: 600;
     border: #1f1106 solid 1px;
     border-radius: 5px;
     margin-left: 20px;
@@ -495,7 +470,7 @@ body {
 }
 
 .grid-item a:hover {
-    background-color: #BBB6B0;
+    background-color: #b3916e;
     color: #f7ede1;
     border-bottom: 1px solid #1f1106;
     border-right: 1px solid #1f1106;
@@ -676,7 +651,7 @@ body {
     /*BOTON FLOTANTE DE WHATSAPP*/
 
     .flotante .wsp {
-        width: 40px;
+        width: 60px;
         position: fixed;
         bottom: 70px;
         right: 10px;
