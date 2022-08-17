@@ -436,9 +436,18 @@ main .grid-local {
     .formulario .form {
       width: 90%; }
       .formulario .form textarea {
-        width: 80%; } }
+        width: 100%; } }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 362px) {
+  .formulario {
+    display: flex;
+    justify-content: center; }
+    .formulario .form {
+      width: 90%; }
+      .formulario .form textarea {
+        width: 100%; } }
+
+@media screen and (max-width: 331px) {
   main .contacto .mapa {
     width: 80%;
     height: 410px; }

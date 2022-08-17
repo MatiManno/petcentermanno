@@ -244,21 +244,40 @@
     .formulario {
         display: flex;
         justify-content: center;
+
         .form {
             width: 90%;
+
             textarea {
-                width: 80%;
+                width: 100%;
             }
         }
     }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:362px) {
+
+    .formulario {
+        display: flex;
+        justify-content: center;
+
+        .form {
+            width: 90%;
+
+            textarea {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:331px) {
     main {
         .contacto {
             .mapa {
                 width: 80%;
                 height: 410px;
+
                 .plano {
                     width: 100%;
                     height: 400px;
