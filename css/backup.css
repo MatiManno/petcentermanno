@@ -216,16 +216,9 @@ body {
     border-color: #1f1106;
 }
 
-/*NOSOTROS*/
-
-.nosotros {
-    color: #1f1106;
-    margin: 40px 0px 10px 65px;
-}
-
 .nosotros-fotos {
     display: flex;
-    justify-content: center
+    justify-content: center;
 }
 
 .nosotros-fotos img {
