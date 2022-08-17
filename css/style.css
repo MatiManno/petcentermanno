@@ -445,7 +445,7 @@ main .grid-local {
     .formulario .form {
       width: 300px; }
       .formulario .form textarea {
-        width: 100%; } }
+        width: 250px; } }
 
 @media screen and (max-width: 331px) {
   main .contacto .mapa {
