@@ -443,7 +443,7 @@ main .grid-local {
     display: flex;
     justify-content: center; }
     .formulario .form {
-      width: 90%; }
+      width: 300px; }
       .formulario .form textarea {
         width: 100%; } }
 
