@@ -3,10 +3,12 @@
     font-weight: 700;
     font-size: 18px;
     background-color: #b3916e;
+
     &:not(.collapsed) {
         color: #1f1106;
         background-color: #f7ede1;
     }
+
     &:focus {
         box-shadow: #1f1106ae;
         border-color: #1f1106;
@@ -21,6 +23,7 @@
 .nosotros-fotos {
     display: flex;
     justify-content: center;
+
     img {
         width: 100%;
         margin: 20px;
