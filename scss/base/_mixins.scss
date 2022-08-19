@@ -3,7 +3,3 @@
     flex-direction: $direction;
     align-items: $align;
 }
-
-.form {
-    @include centrado(flex, column,flex-end);
-}
