@@ -1,3 +1,5 @@
+@import "../base/variables";
+
 .centrar-grilla {
     display: flex;
     justify-content: center;
@@ -23,15 +25,15 @@
                 position: absolute;
                 bottom: 0;
                 padding: 10px 0 10px 10px;
-                color: #f7ede1;
-                background-color: #1f1106;
+                color: $beige;
+                background-color: $marron-oscuro;
                 width: 100%;
                 font-size: 13px;
                 margin-bottom: 0px;
                 font-weight: 600;
             }
             a {
-                background-color: #f7ede1;
+                background-color: $beige;
                 text-decoration: none;
                 padding: 3px;
                 color: #1f1106;
@@ -41,10 +43,10 @@
                 margin-left: 20px;
                 transition: 0.2s;
                 &:hover {
-                    background-color: #b3916e;
-                    color: #f7ede1;
-                    border-bottom: 1px solid #1f1106;
-                    border-right: 1px solid #1f1106;
+                    background-color: $marron-claro;
+                    color: $beige;
+                    border-bottom: 1px solid $marron-oscuro;
+                    border-right: 1px solid $marron-oscuro;
                     transform: scale(1.2);
                 }
             }
