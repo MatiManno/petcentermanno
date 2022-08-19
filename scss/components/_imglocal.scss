@@ -1,6 +1,5 @@
     .fotos-local {
-        display: flex;
-        justify-content: center;
+        @extend %flex;
         img {
             width: 100%;
             margin: 20px;

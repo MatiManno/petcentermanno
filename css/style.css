@@ -251,14 +251,11 @@ section .container .row {
           background-color: #1f1106;
           color: #F7EDE1; }
 
-.fotos-local {
-  display: flex;
-  justify-content: center; }
-  .fotos-local img {
-    width: 100%;
-    margin: 20px;
-    border: 4px solid #1f1106;
-    border-radius: 15px; }
+.fotos-local img {
+  width: 100%;
+  margin: 20px;
+  border: 4px solid #1f1106;
+  border-radius: 15px; }
 
 main .grid-local {
   display: grid;
@@ -454,3 +451,7 @@ main .grid-local {
     main .contacto .mapa .plano {
       width: 100%;
       height: 400px; } }
+
+.fotos-local {
+  display: flex;
+  justify-content: center; }
