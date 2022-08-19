@@ -1,0 +1,11 @@
+$titulo: (
+    font-size: 65px,
+    font-weight: bold,
+    color: #1f1106,
+);
+
+.titulo-principal {
+    font-size: map-get($titulo, font-size);
+    font-weight: map-get($titulo, font-weight);
+    color: map-get($titulo, color);
+}

@@ -1,4 +1,7 @@
 @import "./base/general";
+@import "./base/extend";
+@import "./base/maps";
+@import "./base/mixins";
 @import "./components/header";
 @import "./components/navmenu";
 @import "./components/carruselmarcas";
@@ -12,6 +15,3 @@
 @import "./components/imglocal";
 @import "./components/servicios";
 @import "./components/responsive";
-@import "./base/extend";
-@import "./base/maps";
-@import "./base/mixin";

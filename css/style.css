@@ -16,10 +16,6 @@ body {
   justify-content: space-evenly;
   align-items: baseline;
   padding: 10px; }
-  .hero .titulo-principal {
-    font-size: 65px;
-    font-weight: bold;
-    color: #1f1106; }
   .hero .titulo-secundario {
     font-size: 35px;
     font-weight: 600;
@@ -29,6 +25,20 @@ body {
 .quienes-somos {
   width: 70%;
   margin-inline: auto; }
+
+.fotos-local {
+  display: flex;
+  justify-content: center; }
+
+.titulo-principal {
+  font-size: 65px;
+  font-weight: bold;
+  color: #1f1106; }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; }
 
 .encabezado {
   background-color: #b3916ecc; }
@@ -89,7 +99,7 @@ section .container .row {
       align-items: center; }
     section .container .row .tarjeta-card img {
       width: 300px; }
-    section .container .row .tarjeta-card h4 {
+    section .container .row .tarjeta-card h2 {
       font-size: 20px;
       font-weight: 400;
       color: #1f1106; }
@@ -149,7 +159,7 @@ section .container .row {
         -webkit-box-shadow: 10px 10px 8px 0px rgba(0, 0, 0, 0.58);
         -moz-box-shadow: 10px 10px 8px 0px rgba(0, 0, 0, 0.58);
         margin-bottom: -80px; }
-      .centrar-grilla .grid-container .grid-item h4 {
+      .centrar-grilla .grid-container .grid-item h2 {
         position: absolute;
         bottom: 0;
         padding: 10px 0 10px 10px;
@@ -222,9 +232,6 @@ section .container .row {
 .formulario {
   margin-top: 30px; }
   .formulario .form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
     border: #1f1106 3px solid;
     border-radius: 10px;
     padding: 10px;
@@ -451,7 +458,3 @@ main .grid-local {
     main .contacto .mapa .plano {
       width: 100%;
       height: 400px; } }
-
-.fotos-local {
-  display: flex;
-  justify-content: center; }
