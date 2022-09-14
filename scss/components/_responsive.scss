@@ -210,6 +210,36 @@
     }
 }
 
+@media screen and (max-width:570px) {
+
+    section .carousel .carousel-inner img {
+        height: 280px;
+        object-fit: cover;
+    }
+
+    section .carousel .carousel-inner .tres {
+        height: 280px;
+        object-fit: cover;
+        object-position: left;
+    }
+
+    section .carousel .carousel-inner .dos {
+        height: 280px;
+        object-fit: cover;
+        object-position: right;
+    }
+
+    .hero .titulo-principal {
+        font-size: 50px;
+    }
+    .hero .titulo-secundario {
+        font-size: 24px;
+    }
+    section .destacados {
+        font-size: 22px;
+    }
+}
+
 @media screen and (max-width:530px) {
 
     .contacto {
@@ -240,6 +270,19 @@
     }
 }
 
+@media screen and (max-width:393px) {
+
+    .hero .titulo-principal {
+        font-size: 50px;
+    }
+    .hero .titulo-secundario {
+        font-size: 22px;
+    }
+    section .destacados {
+        font-size: 20px;
+    }
+}
+
 @media screen and (max-width:370px) {
     .formulario {
         display: flex;
@@ -247,6 +290,7 @@
 
         .form {
             width: 90%;
+            padding: 5px;
 
             textarea {
                 width: 100%;
