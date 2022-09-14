@@ -126,7 +126,8 @@ section .container .row {
     text-align: center; }
   .pie div a .redes {
     width: 70px;
-    margin: 0px 3px 0px 3px; }
+    margin: 0px 3px 0px 3px;
+    border-radius: 20px; }
 
 .wsp {
   width: 75px;
@@ -417,7 +418,7 @@ main .grid-local {
     justify-items: center; } }
 
 @media screen and (max-width: 570px) {
-  section .carousel .carousel-inner img {
+  section .carousel .carousel-inner .uno {
     height: 280px;
     object-fit: cover; }
   section .carousel .carousel-inner .tres {
